@@ -1,7 +1,6 @@
 body { 
-
+margin-top: 30px;
     background-color: 	#010209;
-    background-color: #020311; 
 }
 
 .header {
@@ -29,18 +28,12 @@ body {
     height: auto;
     margin-top: 40px;
     margin-left: 15px;
+}
 
 .image {
     width: 920px;
     height: auto;
     margin-left: 170px;
-    margin-left: 23px;
-}
-
-.image {
-    width: 750px;
-    height: auto;
-    margin-left: 20px;
 }
 
 nav ul {
@@ -67,9 +60,6 @@ nav li {
     display: flex;
     justify-content: space-evenly;
     margin-right: 20px;
-    font-size: 30px;
-    text-decoration: none;
-    margin-right: 64px;
 }
 
 .demo {
@@ -77,17 +67,13 @@ nav li {
     color: white;
     border-width: 10px;
     border-color: #011d00;
-    padding: 40px;
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-left: 100px;
-    padding-right: 100px;
-
+    padding: 32px;
+    padding-left: 160px;
+    padding-right: 160px;
     font-size: 40px;
     text-decoration: none;
-    margin-top: 20px;
-    margin-left: -45px;
-    margin-left: -15px;
+    margin-top: 30px;
+    margin-left: -42px;
 }
 
 h1 {
@@ -96,6 +82,7 @@ h1 {
     color: darkred;
     font-size: 40;
     width: 500;
+    padding-top: 30px;
 }
 
 .story {
