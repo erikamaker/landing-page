@@ -1,6 +1,6 @@
 body { 
 
-    background-color: black;
+    background-color: #020311; 
 }
 
 .header {
@@ -24,15 +24,16 @@ body {
 
 
 .logo {
-    width: 470px;
+    width: 450px;
     height: auto;
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 23px;
 }
 
 .image {
-    width: 800px;
+    width: 750px;
     height: auto;
+    margin-left: 20px;
 }
 
 nav ul {
@@ -48,23 +49,26 @@ nav li {
     background-color: black;
     color: white;
     border-width: 10px;
-    border-color: darkred;
+    border-color: #011d00;
     padding: 18px;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
-    margin-right: 57px;
+    margin-right: 64px;
 }
 
 .demo {
     background-color: black;
     color: white;
     border-width: 10px;
-    border-color: darkred;
-    padding: 18px;
+    border-color: #011d00;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+
     font-size: 40px;
     text-decoration: none;
     margin-top: 20px;
-    margin-left: 50px;
+    margin-left: -15px;
 }
 
 h1 {
