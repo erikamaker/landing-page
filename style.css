@@ -1,10 +1,12 @@
 body { 
     margin-top: 30px;
+    margin-bottom: 30px;
     background-color: 	#010209;
+    padding-bottom: 400px;
 
 }
 
-.first-tier {
+header {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -29,8 +31,9 @@ nav li {
 }
 
 .link {
+    font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    color: white;
+    color: goldenrod;
     border-width: 10px;
     border-color: #011d00;
     padding: 18px;
@@ -38,49 +41,50 @@ nav li {
     padding-right: 60px;
     padding-top: 25px;
     padding-bottom: 25px;
-    font-size: 30px;
+    font-size: 26px;
     text-decoration: none;
     display: flex;
     justify-content: space-evenly;
     margin-right: 20px;
 }
 
-.second-tier {
+subheader {
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
     margin-left: 80px;
     margin-right: 80px;
-
 }
 
 .tagline {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Fantasy;
     color: darkred;
-    font-size: 40;
+    font-size: 42px;
     width: 500;
     padding-top: 30px;
 }
 
 .story {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
     width: 450px;
-    color: white;
+    color: rgb(78, 64, 172);
     font-size: 20px;
 }
 
 .demo {
     background-color: black;
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: goldenrod;
     border-width: 10px;
     border-color: #011d00;
-    padding: 55px;
-    padding-left: 160px;
-    padding-right: 160px;
+    padding-left: 162px;
+    padding-right: 162px;
     font-size: 40px;
     text-decoration: none;
     margin-top: 30px;
+    padding-bottom: 37px;
+    padding-top: 37px;
     margin-left: -42px;
 }
 
@@ -90,46 +94,93 @@ nav li {
     margin-left: 160px;
 }
 
-.third-tier > h2 {
+.second-tier {
+    background-color: rgba(22, 1, 11, 0.877);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 60px
+}
+
+.information > h2 {
     text-align: center;
     color: darkred;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Fantasy;
     font-size: 75px;
-    margin-top: 100px;
+    margin-top: 30px;
 }
 
 .info-images {
     display: flex;
     justify-content: center;
     width: 1750px;
-    gap: 40px;
+    gap: 44px;
     text-align: center;
-    margin: 50px;
 }
 
-.chunk > img {
+.thumbnail > img {
     width: 300px;
     margin-left: 50px;
     margin-right: 50px;
-
+    padding-bottom: 20px;
 }
 
 .word  {
-    color: green;
-
-    font-family: Arial, Helvetica, sans-serif;
+    color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     margin: 20px;
-    font-weight: bold;
 }
 
-.maroon {
-    background-color: rgba(22, 1, 11, 0.877);
+.third-tier {
+    background-color: rgb(18, 5, 27);
     padding: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    padding-bottom: 110px
+    padding-top: 170px;
+    padding-bottom: 60px;
 }
 
+.quote {
+    font-family: 'Courier New', Courier, monospace;
+    width: 1000px;
+    color: slateblue;
+    font-size: 40px;
+}
+
+.azazel {
+
+    display: flex;
+    justify-content: center;
+    font-family: Fantasy;
+    color: rgb(122, 1, 1);
+    font-size: 90px;
+    font-weight: bold;
+    padding-top: 110px;
+    margin-left: -320px;
+    align-self: start;
+}
+
+.fourth-tier {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    direction: column;
+    margin-top: 50px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.box {
+    color: green;
+    font-size: 30px;
+    margin-top: 30px;
+}
+
+.signup {
+
+    
+}
 
