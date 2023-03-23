@@ -96,11 +96,11 @@ subheader {
 
 .second-tier {
     background-color: rgba(22, 1, 11, 0.877);
-    padding: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
-    padding-bottom: 60px
+    margin-top: 80px;
+    padding-bottom: 90px;
+    padding-top: 30px;
 }
 
 .information > h2 {
@@ -108,7 +108,6 @@ subheader {
     color: darkred;
     font-family: Fantasy;
     font-size: 75px;
-    margin-top: 30px;
 }
 
 .info-images {
@@ -129,7 +128,7 @@ subheader {
 .word  {
     color: goldenrod;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+    font-size: 20px;
     margin: 20px;
 }
 
@@ -147,6 +146,7 @@ subheader {
     width: 1000px;
     color: slateblue;
     font-size: 40px;
+    margin-left: 100px;
 }
 
 .azazel {
@@ -162,25 +162,35 @@ subheader {
     align-self: start;
 }
 
+
+
+
 .fourth-tier {
     font-family: 'Courier New', Courier, monospace;
-    padding: 30px;
     display: flex;
     justify-content: center;
-    direction: column;
-    margin-top: 50px;
-    padding-bottom: 60px;
+    margin-top: 160px;
     color: white;
 }
 
-.box {
+.join {
+    display: flex;
+    justify-content: center;
     color: green;
     font-size: 30px;
-    margin-top: 30px;
 }
 
 .signup {
-
-    
+    margin-top: 80px;
 }
 
+
+font-family: 'Courier New', Courier, monospace;
+display: flex;
+justify-content: center;
+margin-top: 160px;
+color: green;
+display: flex;
+justify-content: space-around;
+align-items: center;
+flex-direction: row;
