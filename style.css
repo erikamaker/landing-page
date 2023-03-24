@@ -29,7 +29,7 @@ nav li {
 .link {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    color: goldenrod;
+    color: green;
     border-width: 10px;
     border-color: #011d00;
     padding: 18px;
@@ -71,7 +71,7 @@ subheader {
 .demo {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
-    color: goldenrod;
+    color: green;
     border-width: 10px;
     border-color: #011d00;
     padding-left: 162px;
