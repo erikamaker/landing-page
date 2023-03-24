@@ -1,6 +1,7 @@
 body { 
     margin-top: 30px;
     background-color: 	#010209;
+    padding-bottom: 50px;
 }
 
 header {
@@ -160,8 +161,6 @@ subheader {
 }
 
 
-
-
 .fourth-tier {
     font-family: 'Courier New', Courier, monospace;
     display: flex;
@@ -171,7 +170,16 @@ subheader {
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+}
 
+.box {
+    padding-top: 120px;
+    padding-bottom: 120px;
+    padding-left: 500px;
+    padding-right: 500px;
+    background-color: black;
+    margin-bottom: -150px;
+    margin-left: -40px;
 }
 
 .coming {
@@ -200,7 +208,6 @@ subheader {
     padding: 20px;
     padding-left: 40px;
     padding-right: 40px;
-
     font-size: 26px;
     text-decoration: none;
     margin-left: 550px;
@@ -208,5 +215,16 @@ subheader {
     display: flex;
     direction: column;
     align-self: start;
+    text-decoration: none;
 }
 
+.footer {
+    display: flex;
+    direction: row;
+    font-family: 'Courier New', Courier, monospace;
+    color: slateblue;
+    font-size: 20px;
+    justify-content: center;
+
+
+}
