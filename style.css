@@ -148,7 +148,6 @@ subheader {
 }
 
 .azazel {
-
     display: flex;
     justify-content: center;
     font-family: Fantasy;
@@ -159,7 +158,6 @@ subheader {
     margin-left: -320px;
     align-self: start;
 }
-
 
 .fourth-tier {
     font-family: 'Courier New', Courier, monospace;
@@ -198,7 +196,6 @@ subheader {
     color: white;
 }
 
-
 .signup {
     font-family: 'Courier New', Courier, monospace;
     background-color: #010209;
@@ -225,6 +222,4 @@ subheader {
     color: slateblue;
     font-size: 20px;
     justify-content: center;
-
-
 }
