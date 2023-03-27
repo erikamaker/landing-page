@@ -30,7 +30,7 @@ nav li {
 .link {
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    color: green;
+    color: goldenrod;
     border-width: 10px;
     border-color: #011d00;
     padding: 18px;
@@ -72,7 +72,7 @@ subheader {
 .demo {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
-    color: green;
+    color: goldenrod;
     border-width: 10px;
     border-color: #011d00;
     padding-left: 162px;
@@ -131,7 +131,7 @@ subheader {
 }
 
 .third-tier {
-    background-color: rgb(18, 5, 27);
+    background-color: black;
     padding: 30px;
     display: flex;
     justify-content: center;
@@ -181,7 +181,6 @@ subheader {
 }
 
 .coming {
-
     color: green;
     font-size: 30px;
     margin-left: -300px;
@@ -193,21 +192,21 @@ subheader {
     direction: row;
     margin: 20px;
     margin-left: -150px;
-    color: white;
+    color: slateblue;
 }
 
 .signup {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #010209;
+    background-color: rgba(1, 6, 22, 0.877);
     color: goldenrod;
     border-width: 10px;
     border-color: #011d00;
     padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
     font-size: 26px;
     text-decoration: none;
-    margin-left: 550px;
+    margin-left: 590px;
     margin-top: -130px;
     display: flex;
     direction: column;
@@ -219,7 +218,7 @@ subheader {
     display: flex;
     direction: row;
     font-family: 'Courier New', Courier, monospace;
-    color: slateblue;
+    color: darkred;
     font-size: 20px;
     justify-content: center;
 }
