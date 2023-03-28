@@ -60,9 +60,8 @@ subheader {
 .story {
     font-family: 'Courier New', Courier, monospace;
     width: 450px;
-    color: violet;
+    color: cyan;
     font-size: 20px;
-
 }
 
 .demo {
@@ -80,8 +79,6 @@ subheader {
     padding-top: 40px;
     margin-left: -42px;
     border-radius: 10px;
-
-
 }
 
 .image {
@@ -103,8 +100,9 @@ subheader {
 .information > h2 {
     text-align: center;
     color: darkred;
+    -webkit-text-stroke: 3px black;
     font-family: Fantasy;
-    font-size: 75px;
+    font-size: 140px;
     margin: 60px;
 }
 
@@ -114,17 +112,21 @@ subheader {
     width: 1750px;
     gap: 44px;
     text-align: center;
+
 }
 
 .thumbnail > img {
     width: 300px;
     margin-left: 50px;
     margin-right: 50px;
-    padding-bottom: 20px;
+    border-radius: 10px;
+    border-radius: 10px;
+
+
 }
 
-.word  {
-    color: goldenrod;
+.word {
+    color: gold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     margin: 20px;
@@ -178,11 +180,11 @@ subheader {
     background-color: black;
     margin-bottom: -150px;
     margin-left: -40px;
-    border-radius:
+    border-radius: 10px;
 }
 
 .coming {
-    color: green;
+    color: red;
     font-size: 30px;
     margin-left: -300px;
 }
@@ -193,15 +195,16 @@ subheader {
     direction: row;
     margin: 20px;
     margin-left: -150px;
-    color: slateblue;
+    color: cyan;
 }
 
 .signup {
+
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgba(1, 6, 22, 0.877);
-    color: goldenrod;
-    border-width: 10px;
-    border-color: #011d00;
+    border-color: rgb(2, 5, 34);
+    background-color: rgb(8, 85, 79);
+    color: black;
+    border-width: 7px;
     padding: 20px;
     padding-left: 70px;
     padding-right: 70px;
@@ -213,6 +216,8 @@ subheader {
     direction: column;
     align-self: start;
     text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
 }
 
 .footer {
