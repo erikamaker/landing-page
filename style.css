@@ -60,7 +60,7 @@ subheader {
 .story {
     font-family: 'Courier New', Courier, monospace;
     width: 450px;
-    color: cyan;
+    color: rgb(0, 255, 106);
     font-size: 20px;
 }
 
@@ -121,15 +121,14 @@ subheader {
     margin-right: 50px;
     border-radius: 10px;
     border-radius: 10px;
-
-
 }
 
 .word {
-    color: gold;
+    color: rgb(0, 255, 106);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 30px;
     margin: 20px;
+    padding-top: 20px;
 }
 
 .third-tier {
@@ -201,17 +200,16 @@ subheader {
 .signup {
 
     font-family: 'Courier New', Courier, monospace;
-    border-color: rgb(2, 5, 34);
-    background-color: rgb(8, 85, 79);
+    border-color: rgb(5, 34, 3);
+    background-color: rgb(39, 211, 34);
     color: black;
-    border-width: 7px;
     padding: 20px;
     padding-left: 70px;
     padding-right: 70px;
     font-size: 26px;
     text-decoration: none;
     margin-left: 590px;
-    margin-top: -130px;
+    margin-top: -125px;
     display: flex;
     direction: column;
     align-self: start;
