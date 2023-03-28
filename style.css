@@ -16,6 +16,7 @@ header {
     height: auto;
     margin-top: 40px;
     margin-left: 15px;
+    border-radius: 10px;
 }
 
 nav ul {
@@ -23,26 +24,23 @@ nav ul {
     list-style: none;
 }
 
-nav li {
-    margin: 0px;
-}
+
 
 .link {
+    display: flex;
+    max-width: 2000px;
+    justify-content: space-evenly;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
-    color: goldenrod;
-    border-width: 10px;
-    border-color: #011d00;
-    padding: 18px;
-    padding-left: 60px;
-    padding-right: 60px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 26px;
+    border-color: rgb(36, 33, 33);
+    color: rgb(26, 243, 178);
+    padding: 30px;
+    padding-left: 70px;
+    padding-right: 70px;
+    font-size: 25px;
     text-decoration: none;
-    display: flex;
-    justify-content: space-evenly;
-    margin-right: 20px;
+    margin-right: 22px;
+    border-radius: 10px;
 }
 
 subheader {
@@ -55,40 +53,45 @@ subheader {
 }
 
 .tagline {
-    font-family: Fantasy;
-    color: darkred;
-    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(26, 243, 178);
+    font-size: 32px;
     width: 500;
-    padding-top: 30px;
+    padding-top: 40px;
 }
 
 .story {
     font-family: 'Courier New', Courier, monospace;
     width: 450px;
-    color: rgb(78, 64, 172);
+    color: rgb(243, 33, 26);
     font-size: 20px;
+
 }
 
 .demo {
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
-    color: goldenrod;
-    border-width: 10px;
-    border-color: #011d00;
-    padding-left: 162px;
-    padding-right: 162px;
+    background-color: black;
+    border-color: rgb(36, 33, 33);
+    color: rgb(26, 243, 178);
+    padding-left: 172px;
+    padding-right: 172px;
     font-size: 40px;
     text-decoration: none;
-    margin-top: 30px;
-    padding-bottom: 37px;
-    padding-top: 37px;
+    margin-top: 52px;
+    padding-bottom: 40px;
+    padding-top: 40px;
     margin-left: -42px;
+    border-radius: 10px;
+
+
 }
 
 .image {
     width: 915px;
     height: auto;
     margin-left: 160px;
+    border-radius: 10px;
 }
 
 .second-tier {
@@ -218,7 +221,7 @@ subheader {
     display: flex;
     direction: row;
     font-family: 'Courier New', Courier, monospace;
-    color: darkred;
+    color: greenyellow;
     font-size: 20px;
     justify-content: center;
 }
