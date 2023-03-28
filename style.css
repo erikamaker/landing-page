@@ -1,5 +1,4 @@
 body { 
-    margin-top: 30px;
     background-color: 	#010208;
     padding-bottom: 50px;
 }
@@ -8,6 +7,8 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 50px;
+
 }
 
 .logo {
@@ -48,7 +49,7 @@ subheader {
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
-    color: rgb(243, 33, 26);
+    color: red;
     font-size: 32px;
     padding-top: 40px;
 }
@@ -94,23 +95,23 @@ subheader {
 
 .information > h2 {
     text-align: center;
-    color: darkred;
+    color: rgb(112, 5, 5);
     -webkit-text-stroke: 3px black;
     font-family: Fantasy;
-    font-size: 140px;
-    margin: 60px;
+    font-size: 120px;
+    margin: 40px;
 }
 
 .info-images {
     display: flex;
     justify-content: center;
-    width: 1750px;
     gap: 35px;
     text-align: center;
 }
 
 .thumbnail > img {
-    width: 300px;
+    width: 270px;
+    margin-top: 30px;
     margin-left: 50px;
     margin-right: 50px;
     border-radius: 10px;
