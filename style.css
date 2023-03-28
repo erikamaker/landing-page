@@ -1,6 +1,6 @@
 body { 
     margin-top: 30px;
-    background-color: 	#010209;
+    background-color: 	#010208;
     padding-bottom: 50px;
 }
 
@@ -8,7 +8,6 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    flex-direction: row;
 }
 
 .logo {
@@ -25,8 +24,6 @@ nav ul {
 }
 
 .link {
-    display: flex;
-    justify-content: space-evenly;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
     border-color: rgb(12, 11, 11);
@@ -53,7 +50,6 @@ subheader {
     font-family: 'Courier New', Courier, monospace;
     color: rgb(243, 33, 26);
     font-size: 32px;
-    width: 500;
     padding-top: 40px;
 }
 
@@ -65,18 +61,17 @@ subheader {
 }
 
 .demo {
-    background-color: black;
     font-family: 'Courier New', Courier, monospace;
     background-color: black;
     border-color: rgb(12, 11, 11);
     color: goldenrod;
-    padding-left: 172px;
-    padding-right: 172px;
     font-size: 40px;
     text-decoration: none;
     margin-top: 52px;
-    padding-bottom: 40px;
     padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 172px;
+    padding-right: 172px;
     margin-left: -42px;
     border-radius: 10px;
 }
@@ -89,7 +84,7 @@ subheader {
 }
 
 .second-tier {
-    background-color: rgba(22, 1, 11, 0.877);
+    background-color: rgba(24, 2, 29, 0.356);
     display: flex;
     justify-content: center;
     margin-top: 80px;
@@ -110,9 +105,8 @@ subheader {
     display: flex;
     justify-content: center;
     width: 1750px;
-    gap: 44px;
+    gap: 35px;
     text-align: center;
-
 }
 
 .thumbnail > img {
@@ -124,7 +118,7 @@ subheader {
 }
 
 .word {
-    color: rgb(0, 255, 106);
+    color: gold;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     margin: 20px;
@@ -133,7 +127,6 @@ subheader {
 
 .third-tier {
     background-color: black;
-    padding: 30px;
     display: flex;
     justify-content: center;
     padding-top: 190px;
@@ -143,21 +136,19 @@ subheader {
 .quote {
     font-family: 'Courier New', Courier, monospace;
     width: 1000px;
-    color: slateblue;
+    color: cyan;
     font-size: 40px;
     margin-left: 100px;
 }
 
 .azazel {
     display: flex;
-    justify-content: center;
     font-family: Fantasy;
     color: rgb(122, 1, 1);
     font-size: 90px;
     font-weight: bold;
     padding-top: 110px;
     margin-left: -320px;
-    align-self: start;
 }
 
 .fourth-tier {
@@ -198,7 +189,6 @@ subheader {
 }
 
 .signup {
-
     font-family: 'Courier New', Courier, monospace;
     border-color: rgb(5, 34, 3);
     background-color: rgb(39, 211, 34);
@@ -207,13 +197,9 @@ subheader {
     padding-left: 70px;
     padding-right: 70px;
     font-size: 26px;
-    text-decoration: none;
     margin-left: 590px;
     margin-top: -125px;
     display: flex;
-    direction: column;
-    align-self: start;
-    text-decoration: none;
     border-radius: 10px;
     font-weight: bold;
 }
@@ -222,7 +208,7 @@ subheader {
     display: flex;
     direction: row;
     font-family: 'Courier New', Courier, monospace;
-    color: greenyellow;
-    font-size: 20px;
+    color: white;
+    font-size: 15px;
     justify-content: center;
 }
