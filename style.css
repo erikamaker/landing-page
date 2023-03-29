@@ -25,13 +25,13 @@ nav ul {
 }
 
 .link {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica monospace;
     background-color: black;
     border-color: rgb(12, 11, 11);
     color: goldenrod;
     padding: 30px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 85px;
+    padding-right: 85px;
     font-size: 25px;
     text-decoration: none;
     margin-right: 22px;
@@ -62,7 +62,7 @@ subheader {
 }
 
 .demo {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica monospace;
     background-color: black;
     border-color: rgb(12, 11, 11);
     color: goldenrod;
@@ -97,8 +97,8 @@ subheader {
     text-align: center;
     color: rgb(112, 5, 5);
     -webkit-text-stroke: 3px black;
-    font-family: Fantasy;
-    font-size: 120px;
+    font-family: Helvetica monospace;    
+    font-size: 100px;
     margin: 40px;
 }
 
@@ -120,7 +120,7 @@ subheader {
 
 .word {
     color: gold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica monospace;  
     font-size: 30px;
     margin: 20px;
     padding-top: 20px;
@@ -190,16 +190,17 @@ subheader {
 }
 
 .signup {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Helvetica monospace;  
     border-color: rgb(5, 34, 3);
     background-color: rgb(39, 211, 34);
     color: black;
+    border-width: 5px;
     padding: 20px;
     padding-left: 70px;
     padding-right: 70px;
-    font-size: 26px;
+    font-size: 30px;
     margin-left: 590px;
-    margin-top: -125px;
+    margin-top: -130px;
     display: flex;
     border-radius: 10px;
     font-weight: bold;
