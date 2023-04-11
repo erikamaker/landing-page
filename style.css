@@ -1,4 +1,4 @@
-body { 
+body {
     background-color: 	#010208;
     padding-bottom: 50px;
 }
@@ -8,7 +8,6 @@ header {
     justify-content: space-around;
     align-items: center;
     padding-top: 50px;
-
 }
 
 .logo {
@@ -49,7 +48,7 @@ subheader {
 
 .tagline {
     font-family: 'Courier New', Courier, monospace;
-    color: red;
+    color: darkred;
     font-size: 32px;
     padding-top: 40px;
 }
@@ -57,7 +56,7 @@ subheader {
 .story {
     font-family: 'Courier New', Courier, monospace;
     width: 450px;
-    color: rgb(0, 255, 106);
+    color: rgb(14, 221, 135);
     font-size: 20px;
 }
 
@@ -97,7 +96,7 @@ subheader {
     text-align: center;
     color: rgb(112, 5, 5);
     -webkit-text-stroke: 3px black;
-    font-family: Helvetica monospace;    
+    font-family: Helvetica monospace;
     font-size: 100px;
     margin: 40px;
 }
@@ -120,7 +119,7 @@ subheader {
 
 .word {
     color: gold;
-    font-family: Helvetica monospace;  
+    font-family: Helvetica monospace;
     font-size: 30px;
     margin: 20px;
     padding-top: 20px;
@@ -190,7 +189,7 @@ subheader {
 }
 
 .signup {
-    font-family: Helvetica monospace;  
+    font-family: Helvetica monospace;
     border-color: rgb(5, 34, 3);
     background-color: rgb(39, 211, 34);
     color: black;
